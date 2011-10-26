@@ -1,0 +1,15 @@
+inherit font
+
+DESCRPTION="Hebrew TrueType fonts with cantillation marks"
+HOMEPAGE="http://culmus.sourceforge.net/"
+SRC_URI="http://culmus.sourceforge.net/taamim/TaameyFrankCLM.zip"
+SRC_DIR=.
+
+src_compile() { :; }
+src_test() { :; }
+
+src_install() {
+	cd ${S}
+	fontinto TTF
+	dofont TTF/*.ttf
+}

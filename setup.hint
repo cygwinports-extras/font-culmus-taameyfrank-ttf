@@ -1,0 +1,7 @@
+category: X11
+requires: mkfontdir mkfontscale fontconfig font-encodings
+sdesc: "Hebrew TrueType font with cantillation marks"
+ldesc: "Taamey Frank CLM - adaptation of the classical Frank Ruehl 
+Hebrew Font. Glyph spacing and line spacing are wider then usual so as 
+to leave space for all marks. The font family contains Medium, Medium 
+Oblique, Bold and Bold Oblique variants."
